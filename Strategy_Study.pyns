@@ -1,0 +1,5 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Student', 'x':10, 'y':10, 'width':80, 'height':122, 'attrs': 'name|study', 'meths': '__init__|study'}
+{'type':'umlshape', 'id':'object', 'x':263, 'y':57, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Student_to_object', 'source':'Student', 'target':'object', 'uml_edge_type': 'generalisation'}

@@ -1,0 +1,22 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'InstrumentFactory', 'x':301, 'y':147, 'width':202, 'height':64, 'attrs': '', 'meths': 'Create_stringInstruments'}
+{'type':'umlshape', 'id':'SopranosFactory', 'x':186, 'y':12, 'width':202, 'height':80, 'attrs': '', 'meths': 'Create_windInstruments|Create_stringInstruments'}
+{'type':'umlshape', 'id':'BaritonosFactory', 'x':433, 'y':14, 'width':202, 'height':80, 'attrs': '', 'meths': 'Create_windInstruments|Create_stringInstruments'}
+{'type':'umlshape', 'id':'WindInstrument', 'x':141, 'y':282, 'width':150, 'height':80, 'attrs': '', 'meths': 'MechanicalBlow|HumanBlow'}
+{'type':'umlshape', 'id':'StringInstrument', 'x':399, 'y':262, 'width':170, 'height':64, 'attrs': '', 'meths': 'dot'}
+{'type':'umlshape', 'id':'Clarinet', 'x':71, 'y':395, 'width':122, 'height':80, 'attrs': '', 'meths': 'MechanicalBlow|HumanBlow'}
+{'type':'umlshape', 'id':'Saxophone', 'x':220, 'y':398, 'width':122, 'height':80, 'attrs': '', 'meths': 'MechanicalBlow|HumanBlow'}
+{'type':'umlshape', 'id':'Harp', 'x':416, 'y':412, 'width':50, 'height':80, 'attrs': '', 'meths': 'rub|dot'}
+{'type':'umlshape', 'id':'Cello', 'x':508, 'y':410, 'width':60, 'height':80, 'attrs': '', 'meths': 'rub|dot'}
+{'type':'umlshape', 'id':'Client', 'x':575, 'y':142, 'width':114, 'height':64, 'attrs': '', 'meths': 'getInstrument'}
+{'type':'umlshape', 'id':'ABC', 'x':203, 'y':203, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Saxophone_to_WindInstrument', 'source':'Saxophone', 'target':'WindInstrument', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'WindInstrument_to_ABC', 'source':'WindInstrument', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Cello_to_StringInstrument', 'source':'Cello', 'target':'StringInstrument', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Clarinet_to_WindInstrument', 'source':'Clarinet', 'target':'WindInstrument', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'StringInstrument_to_ABC', 'source':'StringInstrument', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'BaritonosFactory_to_InstrumentFactory', 'source':'BaritonosFactory', 'target':'InstrumentFactory', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'SopranosFactory_to_InstrumentFactory', 'source':'SopranosFactory', 'target':'InstrumentFactory', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'InstrumentFactory_to_ABC', 'source':'InstrumentFactory', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Harp_to_StringInstrument', 'source':'Harp', 'target':'StringInstrument', 'uml_edge_type': 'generalisation'}

@@ -1,0 +1,8 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'FlyweightFactory', 'x':10, 'y':10, 'width':170, 'height':106, 'attrs': '_flyweights', 'meths': '__init__|get_flyweight'}
+{'type':'umlshape', 'id':'Flyweight', 'x':35, 'y':150, 'width':130, 'height':90, 'attrs': 'intrinsic_state', 'meths': '__init__'}
+{'type':'umlshape', 'id':'ConcreteFlyweight', 'x':15, 'y':294, 'width':180, 'height':64, 'attrs': '', 'meths': 'operation'}
+{'type':'umlshape', 'id':'Client', 'x':264, 'y':160, 'width':70, 'height':64, 'attrs': '', 'meths': 'fly'}
+{'type':'edge', 'id':'ConcreteFlyweight_to_Flyweight', 'source':'ConcreteFlyweight', 'target':'Flyweight', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Flyweight_to_FlyweightFactory', 'source':'Flyweight', 'target':'FlyweightFactory', 'uml_edge_type': 'composition'}
